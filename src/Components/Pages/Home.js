@@ -10,7 +10,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Home = () => {
     return (
-        <section className='bg-cover bg-no-repeat bg-fixed pt-16 min-h-screen' style={{ backgroundImage: `url(${bg})` }}>
+        <section className='bg-cover bg-no-repeat lg:bg-fixed pt-16 min-h-screen' style={{ backgroundImage: `url(${bg})` }}>
 
             <div className='mx-auto max-w-screen-xl px-4 sm:px-4 md:px-6'>
 
@@ -38,29 +38,29 @@ const Home = () => {
                     <h2 className='text-2xl text-center text-white'>Please select a mobile banking service</h2>
 
                     <div className='grid lg:grid-cols-4 grid-cols-2 gap-3 lg:gap-0 mt-10'>
-                        <Link to="/bkash" className='bg-[#DF146E] p-2 lg:w-[176px] lg:h-[147px] w-32 h-32 rounded-lg relative mx-auto transition hover:scale-125'>
+                        <Link to="/bkash" className='bg-[#DF146E] p-2 lg:w-[176px] lg:h-[147px] w-32 h-32 rounded-lg relative mx-auto lg:transition lg:hover:scale-125'>
                             <img src={bkash} className="w-40" alt="" />
                             <div className='flex justify-center'>
                                 <p className='text-white absolute bottom-3 font-semibold'>bKash</p>
                             </div>
                         </Link>
 
-                        <Link to="/nagad" className='bg-white p-2 lg:w-[176px] lg:h-[147px] w-32 h-32 rounded-lg relative mx-auto transition hover:scale-125'>
+                        <Link to="/nagad" className='bg-white p-2 lg:w-[176px] lg:h-[147px] w-32 h-32 rounded-lg relative mx-auto lg:transition lg:hover:scale-125'>
                             <img src={nagad} className="w-40" alt="" />
                             <div className='flex justify-center'>
                                 <p className='absolute bottom-3 font-semibold'>Nagad</p>
                             </div>
                         </Link>
 
-                        <Link to="/rocket" className='bg-[#8C3493] p-2 lg:w-[176px] lg:h-[147px] w-32 h-32 rounded-lg relative mx-auto transition hover:scale-125'>
+                        <Link to="/rocket" className='bg-[#8C3493] p-2 lg:w-[176px] lg:h-[147px] w-32 h-32 rounded-lg relative mx-auto lg:transition lg:hover:scale-125'>
                             <img src={rocket} className="w-32 mx-auto my-auto mt-2" alt="" />
                             <div className='flex justify-center'>
                                 <p className='text-white absolute bottom-3 font-semibold'>DBBL Rocket</p>
                             </div>
                         </Link>
 
-                        <Link to="/upay" className='bg-white p-2 lg:w-[176px] lg:h-[147px] w-32 h-32 rounded-lg relative mx-auto transition hover:scale-125'>
-                            <img src={upay} className="w-24 mx-auto lg:mt-2" alt="" />
+                        <Link to="/upay" className='bg-white p-2 lg:w-[176px] lg:h-[147px] w-32 h-32 rounded-lg relative mx-auto lg:transition lg:hover:scale-125'>
+                            <img src={upay} className="lg:w-24 w-20 mx-auto lg:mt-2" alt="" />
                             <div className='flex justify-center'>
                                 <p className='absolute bottom-3 font-semibold'>Upay</p>
                             </div>
